@@ -1,0 +1,31 @@
+.principal-login {
+    background-color: #8a7d7d;
+}
+
+.login-section {
+    min-height: 500px;
+    font-family: "Metal Mania", system-ui;
+    padding: 5% 0;
+}
+
+.login-section h1 {
+    padding: 1% 0;
+    font-size: 3rem;
+}
+
+.login-section h1:hover {
+    text-shadow: 2px 3px 5px black;
+}
+
+.login-section form label {
+    margin: 1% 0;
+    font-size: 1.8rem;
+}
+
+.login-section form button {
+    margin: 3% 0;
+    width: 14%;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,30 @@
+.principal-camisetas {
+    background-color: #8a7d7d;
+}
+
+.container {
+    padding: 5% 0;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5%;
+    margin: 1.5rem;
+}
+
+.note h4 {
+    margin: 5% 0;
+    font-family: 'Metal Mania', sans-serif;   
+    text-align: center;
+}
+
+.note p {
+    margin: 5% 0;
+    font-family: 'Metal Mania', sans-serif;
+    font-size: 2rem;
+}

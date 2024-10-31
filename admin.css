@@ -1,0 +1,98 @@
+.principal-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-main {
+    background-color: white;
+    min-height: 500px;
+    padding: 2%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo dentro del h1 */
+.container-main h1 img {
+    width: 50px;
+    vertical-align: middle; 
+    margin-right: 10px;
+}
+
+/* Título principal */
+h1 {
+    font-family: 'Metal Mania', sans-serif;
+    color: #333;
+    font-size: 2.5rem;
+}
+
+.textAreaContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;               
+    min-height: 200px;       
+}
+
+
+.myTextArea {
+    margin: 2% 0;
+    padding: 5px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Estilos para los botones */
+.myButton, .saveButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin: 1% 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.myButton:hover, .saveButton:hover {
+    background-color: #555;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5%;
+    margin: 1.5rem;
+}
+
+.edit-button, .delete-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin: 1% 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.note h4 {
+    margin: 5% 0;
+    font-family: 'Metal Mania', sans-serif;   
+    text-align: center;
+}
+
+.note p {
+    margin: 5% 0;
+    font-family: 'Metal Mania', sans-serif;
+    font-size: 2rem;
+}
